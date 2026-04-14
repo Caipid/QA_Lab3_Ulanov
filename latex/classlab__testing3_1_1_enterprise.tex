@@ -1,0 +1,117 @@
+\doxysection{Класс lab\+\_\+testing3.\+Enterprise}
+\hypertarget{classlab__testing3_1_1_enterprise}{}\label{classlab__testing3_1_1_enterprise}\index{lab\_testing3.Enterprise@{lab\_testing3.Enterprise}}
+
+
+Абстрактный базовый класс корпорации.  
+
+
+
+
+Граф наследования:\+lab\+\_\+testing3.\+Enterprise:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classlab__testing3_1_1_enterprise__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{classlab__testing3_1_1_enterprise_ab19b6a145927ea210371718582adedf3}{Enterprise}} (string \doxymbox{\hyperlink{classlab__testing3_1_1_enterprise_a8dc3ad75648b0f9d689022af7f0ae90f}{name}}, double add\+Room)
+\begin{DoxyCompactList}\small\item\em Конструктор класса \doxylink{classlab__testing3_1_1_enterprise}{Enterprise}. \end{DoxyCompactList}\item 
+int \doxymbox{\hyperlink{classlab__testing3_1_1_enterprise_a18031fc76147b2b3c4df304c6f05935a}{Sum\+Build}} ()
+\begin{DoxyCompactList}\small\item\em Рассчитывает суммарную стоимость всех зданий корпорации. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Защищенные данные}
+\begin{DoxyCompactItemize}
+\item 
+string \doxymbox{\hyperlink{classlab__testing3_1_1_enterprise_a8dc3ad75648b0f9d689022af7f0ae90f}{name}}
+\begin{DoxyCompactList}\small\item\em Название корпорации \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{classlab__testing3_1_1_enterprise_af0c36ecb4f1e80e6596131f5428f0442}{add\+\_\+room}}
+\begin{DoxyCompactList}\small\item\em Площадь дополнительных помещений (м\texorpdfstring{$^\wedge$}{\string^}2). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Абстрактный базовый класс корпорации. 
+
+Класс представляет собой шаблон для различных типов корпораций. Содержит общие поля и абстрактный метод для расчета стоимости.
+
+
+
+\begin{DoxySeeAlso}{См. также}
+\doxylink{classlab__testing3_1_1_standart_ent}{Standart\+Ent}, \doxylink{classlab__testing3_1_1_special_ent}{Special\+Ent}, \doxylink{classlab__testing3_1_1_combo_ent}{Combo\+Ent} 
+\end{DoxySeeAlso}
+
+
+\label{doc-constructors}
+\Hypertarget{classlab__testing3_1_1_enterprise_doc-constructors}
+\doxysubsection{Конструктор(ы)}
+\Hypertarget{classlab__testing3_1_1_enterprise_ab19b6a145927ea210371718582adedf3}\index{lab\_testing3.Enterprise@{lab\_testing3.Enterprise}!Enterprise@{Enterprise}}
+\index{Enterprise@{Enterprise}!lab\_testing3.Enterprise@{lab\_testing3.Enterprise}}
+\doxysubsubsection{\texorpdfstring{Enterprise()}{Enterprise()}}
+{\footnotesize\ttfamily \label{classlab__testing3_1_1_enterprise_ab19b6a145927ea210371718582adedf3} 
+lab\+\_\+testing3.\+Enterprise.\+Enterprise (\begin{DoxyParamCaption}\item[{string}]{name}{, }\item[{double}]{add\+Room}{}\end{DoxyParamCaption})}
+
+
+
+Конструктор класса \doxylink{classlab__testing3_1_1_enterprise}{Enterprise}. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em \doxylink{classlab__testing3_1_1_enterprise_a8dc3ad75648b0f9d689022af7f0ae90f}{name}} & Название корпорации. \\
+\hline
+{\em add\+Room} & Площадь дополнительных помещений (м\texorpdfstring{$^\wedge$}{\string^}2). \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{classlab__testing3_1_1_enterprise_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{classlab__testing3_1_1_enterprise_a18031fc76147b2b3c4df304c6f05935a}\index{lab\_testing3.Enterprise@{lab\_testing3.Enterprise}!SumBuild@{SumBuild}}
+\index{SumBuild@{SumBuild}!lab\_testing3.Enterprise@{lab\_testing3.Enterprise}}
+\doxysubsubsection{\texorpdfstring{SumBuild()}{SumBuild()}}
+{\footnotesize\ttfamily \label{classlab__testing3_1_1_enterprise_a18031fc76147b2b3c4df304c6f05935a} 
+int lab\+\_\+testing3.\+Enterprise.\+Sum\+Build (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+
+
+Рассчитывает суммарную стоимость всех зданий корпорации. 
+
+\begin{DoxyReturn}{Возвращает}
+Стоимость всех зданий корпорации.
+\end{DoxyReturn}
+Абстрактный метод, который должен быть реализован в классах-\/наследниках
+
+\begin{DoxyReturn}{Возвращает}
+Суммарная стоимость всех зданий корпорации. 
+\end{DoxyReturn}
+
+
+\label{doc-variable-members}
+\Hypertarget{classlab__testing3_1_1_enterprise_doc-variable-members}
+\doxysubsection{Поля}
+\Hypertarget{classlab__testing3_1_1_enterprise_af0c36ecb4f1e80e6596131f5428f0442}\index{lab\_testing3.Enterprise@{lab\_testing3.Enterprise}!add\_room@{add\_room}}
+\index{add\_room@{add\_room}!lab\_testing3.Enterprise@{lab\_testing3.Enterprise}}
+\doxysubsubsection{\texorpdfstring{add\_room}{add\_room}}
+{\footnotesize\ttfamily \label{classlab__testing3_1_1_enterprise_af0c36ecb4f1e80e6596131f5428f0442} 
+double lab\+\_\+testing3.\+Enterprise.\+add\+\_\+room\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Площадь дополнительных помещений (м\texorpdfstring{$^\wedge$}{\string^}2). 
+
+\Hypertarget{classlab__testing3_1_1_enterprise_a8dc3ad75648b0f9d689022af7f0ae90f}\index{lab\_testing3.Enterprise@{lab\_testing3.Enterprise}!name@{name}}
+\index{name@{name}!lab\_testing3.Enterprise@{lab\_testing3.Enterprise}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily \label{classlab__testing3_1_1_enterprise_a8dc3ad75648b0f9d689022af7f0ae90f} 
+string lab\+\_\+testing3.\+Enterprise.\+name\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Название корпорации 
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+lab\+\_\+testing3/\+\doxymbox{\hyperlink{_ent_8cs}{Ent.\+cs}}\end{DoxyCompactItemize}

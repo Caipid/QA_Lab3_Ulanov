@@ -1,0 +1,9 @@
+<map id="Program.Main" name="Program.Main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,108,107"/>
+<area shape="rect" id="Node000002" href="$classlab__testing3_1_1_combo_ent.html#af3e7cf67c83ec910a8d0e7d74231b18c" title="Рассчитывает суммарную стоимость зданий корпорации." alt="" coords="156,5,344,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,77,173,52,170,56,99,82"/>
+<area shape="rect" id="Node000003" href="$classlab__testing3_1_1_special_ent.html#a59e41229a21a8a5d2b5944b1390e9683" title="Рассчитывает суммарную стоимость зданий корпорации." alt="" coords="169,72,331,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="107,91,156,92,151,95,108,96"/>
+<area shape="rect" id="Node000004" href="$classlab__testing3_1_1_standart_ent.html#a507b7a5ee23882ff92a66cf183589caf" title="Рассчитывает суммарную стоимость зданий корпорации." alt="" coords="166,139,334,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="98,105,174,132,169,134,97,110"/>
+</map>

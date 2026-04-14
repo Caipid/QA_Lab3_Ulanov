@@ -1,0 +1,9 @@
+<map id="Иерархия классов. Графический вид." name="Иерархия классов. Графический вид.">
+<area shape="rect" id="Node000000" href="$classlab__testing3_1_1_enterprise.html" title="Абстрактный базовый класс корпорации." alt="" coords="5,56,160,83"/>
+<area shape="rect" id="Node000001" href="$classlab__testing3_1_1_combo_ent.html" title="Корпорация с комбинированными зданиями." alt="" coords="211,5,368,32"/>
+<area shape="poly" id="edge2_Node000000_Node000001" title=" " alt="" coords="154,49,235,31,230,34,156,54"/>
+<area shape="rect" id="Node000002" href="$classlab__testing3_1_1_special_ent.html" title="Корпорация со специальными зданиями." alt="" coords="211,56,369,83"/>
+<area shape="poly" id="edge3_Node000000_Node000002" title=" " alt="" coords="175,67,213,69,208,70,176,72"/>
+<area shape="rect" id="Node000003" href="$classlab__testing3_1_1_standart_ent.html" title="Коорпорация с обычными зданиями" alt="" coords="208,107,372,133"/>
+<area shape="poly" id="edge4_Node000000_Node000003" title=" " alt="" coords="155,84,235,105,230,107,155,90"/>
+</map>

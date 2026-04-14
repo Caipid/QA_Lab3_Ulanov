@@ -1,0 +1,165 @@
+\doxysection{Класс lab\+\_\+testing3.\+Building}
+\hypertarget{classlab__testing3_1_1_building}{}\label{classlab__testing3_1_1_building}\index{lab\_testing3.Building@{lab\_testing3.Building}}
+
+
+Класс обычного здания.  
+
+
+
+
+Граф наследования:\+lab\+\_\+testing3.\+Building:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{classlab__testing3_1_1_building__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+double \doxymbox{\hyperlink{classlab__testing3_1_1_building_a9e77389e22e578fc058874b421b20d00}{Costed}} ()
+\begin{DoxyCompactList}\small\item\em Рассчитывает стоимость здания \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{classlab__testing3_1_1_building_aa95ad175834de4b6255050c8b130155e}{Building}} (double \doxymbox{\hyperlink{classlab__testing3_1_1_building_a58fc4a34775cacae47e9ef76b3ba8779}{cost}}, int ss)
+\begin{DoxyCompactList}\small\item\em Конструктор класса \doxylink{classlab__testing3_1_1_building}{Building}. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{classlab__testing3_1_1_building_afd7badcb8665b62811fbbb8621debc28}{Building}} ()
+\begin{DoxyCompactList}\small\item\em Конструктор по умолчанию класса \doxylink{classlab__testing3_1_1_building}{Building}. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{classlab__testing3_1_1_building_af6722ed596a6371eb0d81a500d3c8c4e}{Read}} ()
+\begin{DoxyCompactList}\small\item\em Считываение полей класса с консоли. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{classlab__testing3_1_1_building_a37ae8f1c4bccffd96fdd504774df9f3c}{Display}} ()
+\begin{DoxyCompactList}\small\item\em Вывод информации о здании в консоль \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Защищенные данные}
+\begin{DoxyCompactItemize}
+\item 
+int \doxymbox{\hyperlink{classlab__testing3_1_1_building_a28bf125ef8779b93324249cff089f17c}{s}}
+\begin{DoxyCompactList}\small\item\em площадь здания (м\texorpdfstring{$^\wedge$}{\string^}2) \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{classlab__testing3_1_1_building_a58fc4a34775cacae47e9ef76b3ba8779}{cost}}
+\begin{DoxyCompactList}\small\item\em стоимость за (м\texorpdfstring{$^\wedge$}{\string^}2) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс обычного здания. 
+
+Базовый класс, представляющий обычное здание в составе предприятия. Содержит информацию о площади и стоимости за квадратный метр.
+
+\begin{DoxySeeAlso}{См. также}
+\doxylink{classlab__testing3_1_1_special_building}{Special\+Building} 
+\end{DoxySeeAlso}
+
+
+\label{doc-constructors}
+\Hypertarget{classlab__testing3_1_1_building_doc-constructors}
+\doxysubsection{Конструктор(ы)}
+\Hypertarget{classlab__testing3_1_1_building_aa95ad175834de4b6255050c8b130155e}\index{lab\_testing3.Building@{lab\_testing3.Building}!Building@{Building}}
+\index{Building@{Building}!lab\_testing3.Building@{lab\_testing3.Building}}
+\doxysubsubsection{\texorpdfstring{Building()}{Building()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classlab__testing3_1_1_building_aa95ad175834de4b6255050c8b130155e} 
+lab\+\_\+testing3.\+Building.\+Building (\begin{DoxyParamCaption}\item[{double}]{cost}{, }\item[{int}]{ss}{}\end{DoxyParamCaption})}
+
+
+
+Конструктор класса \doxylink{classlab__testing3_1_1_building}{Building}. 
+
+Создает обычное здание
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\doxymbox{\texttt{in}}  & {\em \doxylink{classlab__testing3_1_1_building_a58fc4a34775cacae47e9ef76b3ba8779}{cost}} & стоимость за (м\texorpdfstring{$^\wedge$}{\string^}2). \\
+\hline
+\doxymbox{\texttt{in}}  & {\em ss} & площадь здания (м\texorpdfstring{$^\wedge$}{\string^}2). \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classlab__testing3_1_1_building_afd7badcb8665b62811fbbb8621debc28}\index{lab\_testing3.Building@{lab\_testing3.Building}!Building@{Building}}
+\index{Building@{Building}!lab\_testing3.Building@{lab\_testing3.Building}}
+\doxysubsubsection{\texorpdfstring{Building()}{Building()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classlab__testing3_1_1_building_afd7badcb8665b62811fbbb8621debc28} 
+lab\+\_\+testing3.\+Building.\+Building (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Конструктор по умолчанию класса \doxylink{classlab__testing3_1_1_building}{Building}. 
+
+Создает обычное здание с значениями по умолчанию:\+ s(площадь здания (м\texorpdfstring{$^\wedge$}{\string^}2)) = 5. cost(стоимость за (м\texorpdfstring{$^\wedge$}{\string^}2)) = 4. 
+
+\label{doc-func-members}
+\Hypertarget{classlab__testing3_1_1_building_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{classlab__testing3_1_1_building_a9e77389e22e578fc058874b421b20d00}\index{lab\_testing3.Building@{lab\_testing3.Building}!Costed@{Costed}}
+\index{Costed@{Costed}!lab\_testing3.Building@{lab\_testing3.Building}}
+\doxysubsubsection{\texorpdfstring{Costed()}{Costed()}}
+{\footnotesize\ttfamily \label{classlab__testing3_1_1_building_a9e77389e22e578fc058874b421b20d00} 
+double lab\+\_\+testing3.\+Building.\+Costed (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Рассчитывает стоимость здания 
+
+Вычисляет общую стоимость как произведение площади на стоимость за м².
+
+\begin{DoxyReturn}{Возвращает}
+Стоимость здания 
+\end{DoxyReturn}
+\Hypertarget{classlab__testing3_1_1_building_a37ae8f1c4bccffd96fdd504774df9f3c}\index{lab\_testing3.Building@{lab\_testing3.Building}!Display@{Display}}
+\index{Display@{Display}!lab\_testing3.Building@{lab\_testing3.Building}}
+\doxysubsubsection{\texorpdfstring{Display()}{Display()}}
+{\footnotesize\ttfamily \label{classlab__testing3_1_1_building_a37ae8f1c4bccffd96fdd504774df9f3c} 
+void lab\+\_\+testing3.\+Building.\+Display (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Вывод информации о здании в консоль 
+
+Выводит:\+
+\begin{DoxyItemize}
+\item Площадь здания (м\texorpdfstring{$^\wedge$}{\string^}2)
+\item Стоимость за (м\texorpdfstring{$^\wedge$}{\string^}2)
+\item Стоимость всего здания
+\end{DoxyItemize}
+
+\begin{DoxySeeAlso}{См. также}
+\doxylink{classlab__testing3_1_1_building_a9e77389e22e578fc058874b421b20d00}{Costed()} 
+\end{DoxySeeAlso}
+\Hypertarget{classlab__testing3_1_1_building_af6722ed596a6371eb0d81a500d3c8c4e}\index{lab\_testing3.Building@{lab\_testing3.Building}!Read@{Read}}
+\index{Read@{Read}!lab\_testing3.Building@{lab\_testing3.Building}}
+\doxysubsubsection{\texorpdfstring{Read()}{Read()}}
+{\footnotesize\ttfamily \label{classlab__testing3_1_1_building_af6722ed596a6371eb0d81a500d3c8c4e} 
+void lab\+\_\+testing3.\+Building.\+Read (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Считываение полей класса с консоли. 
+
+Производит переопредление значений полей класса, на значения введные пользователем в консоли
+
+\begin{DoxyWarning}{Предупреждения}
+При некорректном вводе возникнет ошибка! 
+\end{DoxyWarning}
+
+
+\label{doc-variable-members}
+\Hypertarget{classlab__testing3_1_1_building_doc-variable-members}
+\doxysubsection{Поля}
+\Hypertarget{classlab__testing3_1_1_building_a58fc4a34775cacae47e9ef76b3ba8779}\index{lab\_testing3.Building@{lab\_testing3.Building}!cost@{cost}}
+\index{cost@{cost}!lab\_testing3.Building@{lab\_testing3.Building}}
+\doxysubsubsection{\texorpdfstring{cost}{cost}}
+{\footnotesize\ttfamily \label{classlab__testing3_1_1_building_a58fc4a34775cacae47e9ef76b3ba8779} 
+double lab\+\_\+testing3.\+Building.\+cost\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+стоимость за (м\texorpdfstring{$^\wedge$}{\string^}2) 
+
+\Hypertarget{classlab__testing3_1_1_building_a28bf125ef8779b93324249cff089f17c}\index{lab\_testing3.Building@{lab\_testing3.Building}!s@{s}}
+\index{s@{s}!lab\_testing3.Building@{lab\_testing3.Building}}
+\doxysubsubsection{\texorpdfstring{s}{s}}
+{\footnotesize\ttfamily \label{classlab__testing3_1_1_building_a28bf125ef8779b93324249cff089f17c} 
+int lab\+\_\+testing3.\+Building.\+s\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+площадь здания (м\texorpdfstring{$^\wedge$}{\string^}2) 
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+lab\+\_\+testing3/\+\doxymbox{\hyperlink{_building_8cs}{Building.\+cs}}\end{DoxyCompactItemize}

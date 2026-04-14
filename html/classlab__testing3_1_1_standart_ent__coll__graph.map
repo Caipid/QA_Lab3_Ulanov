@@ -1,0 +1,7 @@
+<map id="lab_testing3.StandartEnt" name="lab_testing3.StandartEnt">
+<area shape="rect" id="Node000001" title="Коорпорация с обычными зданиями" alt="" coords="86,125,250,152"/>
+<area shape="rect" id="Node000002" href="$classlab__testing3_1_1_enterprise.html" title="Абстрактный базовый класс корпорации." alt="" coords="5,5,160,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,43,161,124,156,125,99,47"/>
+<area shape="rect" id="Node000003" href="$classlab__testing3_1_1_building.html" title="Класс обычного здания." alt="" coords="184,5,325,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="239,44,179,127,175,123,234,45"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="lab_testing3.ComboEnt" name="lab_testing3.ComboEnt">
+<area shape="rect" id="Node000001" title="Корпорация с комбинированными зданиями." alt="" coords="129,180,286,207"/>
+<area shape="rect" id="Node000002" href="$classlab__testing3_1_1_enterprise.html" title="Абстрактный базовый класс корпорации." alt="" coords="5,81,160,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,115,194,178,189,180,110,120"/>
+<area shape="rect" id="Node000003" href="$classlab__testing3_1_1_building.html" title="Класс обычного здания." alt="" coords="153,5,294,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="224,46,211,181,206,179,219,49"/>
+<area shape="rect" id="Node000004" href="$classlab__testing3_1_1_special_building.html" title="Класс&#45;наследник Building." alt="" coords="254,81,439,108"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="258,37,328,80,323,81,257,43"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="319,117,227,182,225,177,313,118"/>
+</map>

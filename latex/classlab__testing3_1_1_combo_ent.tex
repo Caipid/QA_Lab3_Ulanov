@@ -1,0 +1,150 @@
+\doxysection{Класс lab\+\_\+testing3.\+Combo\+Ent}
+\hypertarget{classlab__testing3_1_1_combo_ent}{}\label{classlab__testing3_1_1_combo_ent}\index{lab\_testing3.ComboEnt@{lab\_testing3.ComboEnt}}
+
+
+Корпорация с комбинированными зданиями.  
+
+
+
+
+Граф наследования:\+lab\+\_\+testing3.\+Combo\+Ent:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=198pt]{classlab__testing3_1_1_combo_ent__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Граф связей класса lab\+\_\+testing3.\+Combo\+Ent:\+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classlab__testing3_1_1_combo_ent__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{classlab__testing3_1_1_combo_ent_ab71d6590cd857027307e815e00ccffa0}{Combo\+Ent}} (string \doxymbox{\hyperlink{classlab__testing3_1_1_enterprise_a8dc3ad75648b0f9d689022af7f0ae90f}{name}}, double add\+Room, int s1, int cost1, int s2, int cost2, int type2)
+\begin{DoxyCompactList}\small\item\em Конструктор класса \doxylink{classlab__testing3_1_1_combo_ent}{Combo\+Ent}. \end{DoxyCompactList}\item 
+override int \doxymbox{\hyperlink{classlab__testing3_1_1_combo_ent_af3e7cf67c83ec910a8d0e7d74231b18c}{Sum\+Build}} ()
+\begin{DoxyCompactList}\small\item\em Рассчитывает суммарную стоимость зданий корпорации. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые члены унаследованные от \doxymbox{\hyperlink{classlab__testing3_1_1_enterprise}{lab\+\_\+testing3.\+Enterprise}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{classlab__testing3_1_1_enterprise_ab19b6a145927ea210371718582adedf3}{Enterprise}} (string \doxymbox{\hyperlink{classlab__testing3_1_1_enterprise_a8dc3ad75648b0f9d689022af7f0ae90f}{name}}, double add\+Room)
+\begin{DoxyCompactList}\small\item\em Конструктор класса \doxylink{classlab__testing3_1_1_enterprise}{Enterprise}. \end{DoxyCompactList}\item 
+int \doxymbox{\hyperlink{classlab__testing3_1_1_enterprise_a18031fc76147b2b3c4df304c6f05935a}{Sum\+Build}} ()
+\begin{DoxyCompactList}\small\item\em Рассчитывает суммарную стоимость всех зданий корпорации. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Защищенные данные}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{classlab__testing3_1_1_building}{Building}} \doxymbox{\hyperlink{classlab__testing3_1_1_combo_ent_ac0b276430081dedd5610ce2658c66e68}{b1}}
+\begin{DoxyCompactList}\small\item\em обычное здание корпорации \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{classlab__testing3_1_1_special_building}{Special\+Building}} \doxymbox{\hyperlink{classlab__testing3_1_1_combo_ent_a57ac92648e45b86d9444fc4f3f3b0be4}{b2}}
+\begin{DoxyCompactList}\small\item\em Специальное здание корпорации \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Защищенные данные унаследованные от \doxymbox{\hyperlink{classlab__testing3_1_1_enterprise}{lab\+\_\+testing3.\+Enterprise}}}
+\begin{DoxyCompactItemize}
+\item 
+string \doxymbox{\hyperlink{classlab__testing3_1_1_enterprise_a8dc3ad75648b0f9d689022af7f0ae90f}{name}}
+\begin{DoxyCompactList}\small\item\em Название корпорации \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{classlab__testing3_1_1_enterprise_af0c36ecb4f1e80e6596131f5428f0442}{add\+\_\+room}}
+\begin{DoxyCompactList}\small\item\em Площадь дополнительных помещений (м\texorpdfstring{$^\wedge$}{\string^}2). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Корпорация с комбинированными зданиями. 
+
+Класс-\/наследник \doxylink{classlab__testing3_1_1_enterprise}{Enterprise}, содержащий одно стандартное и одно специальное здание.
+
+\begin{DoxySeeAlso}{См. также}
+\doxylink{classlab__testing3_1_1_enterprise}{Enterprise}, \doxylink{classlab__testing3_1_1_building}{Building}, \doxylink{classlab__testing3_1_1_special_building}{Special\+Building} 
+\end{DoxySeeAlso}
+
+
+\label{doc-constructors}
+\Hypertarget{classlab__testing3_1_1_combo_ent_doc-constructors}
+\doxysubsection{Конструктор(ы)}
+\Hypertarget{classlab__testing3_1_1_combo_ent_ab71d6590cd857027307e815e00ccffa0}\index{lab\_testing3.ComboEnt@{lab\_testing3.ComboEnt}!ComboEnt@{ComboEnt}}
+\index{ComboEnt@{ComboEnt}!lab\_testing3.ComboEnt@{lab\_testing3.ComboEnt}}
+\doxysubsubsection{\texorpdfstring{ComboEnt()}{ComboEnt()}}
+{\footnotesize\ttfamily \label{classlab__testing3_1_1_combo_ent_ab71d6590cd857027307e815e00ccffa0} 
+lab\+\_\+testing3.\+Combo\+Ent.\+Combo\+Ent (\begin{DoxyParamCaption}\item[{string}]{name}{, }\item[{double}]{add\+Room}{, }\item[{int}]{s1}{, }\item[{int}]{cost1}{, }\item[{int}]{s2}{, }\item[{int}]{cost2}{, }\item[{int}]{type2}{}\end{DoxyParamCaption})}
+
+
+
+Конструктор класса \doxylink{classlab__testing3_1_1_combo_ent}{Combo\+Ent}. 
+
+Создает предприятие с одним стандартным и одним специальным зданием.
+
+
+\begin{DoxyParams}{Аргументы}
+{\em \doxylink{classlab__testing3_1_1_enterprise_a8dc3ad75648b0f9d689022af7f0ae90f}{name}} & Название корпорации. \\
+\hline
+{\em add\+Room} & Площадь дополнительных помещений (м\texorpdfstring{$^\wedge$}{\string^}2). \\
+\hline
+{\em s1} & Площадь первого здания (м\texorpdfstring{$^\wedge$}{\string^}2). \\
+\hline
+{\em cost1} & Стоимость за квадратный метр первого здания. \\
+\hline
+{\em s2} & Площадь второго здания (м\texorpdfstring{$^\wedge$}{\string^}2). \\
+\hline
+{\em cost2} & Стоимость за квадратный метр второго здания. \\
+\hline
+{\em type2} & Тип второго здания. \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{classlab__testing3_1_1_combo_ent_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{classlab__testing3_1_1_combo_ent_af3e7cf67c83ec910a8d0e7d74231b18c}\index{lab\_testing3.ComboEnt@{lab\_testing3.ComboEnt}!SumBuild@{SumBuild}}
+\index{SumBuild@{SumBuild}!lab\_testing3.ComboEnt@{lab\_testing3.ComboEnt}}
+\doxysubsubsection{\texorpdfstring{SumBuild()}{SumBuild()}}
+{\footnotesize\ttfamily \label{classlab__testing3_1_1_combo_ent_af3e7cf67c83ec910a8d0e7d74231b18c} 
+override int lab\+\_\+testing3.\+Combo\+Ent.\+Sum\+Build (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Рассчитывает суммарную стоимость зданий корпорации. 
+
+Суммирует стоимость обычного здания (\doxylink{classlab__testing3_1_1_building_a9e77389e22e578fc058874b421b20d00}{Building.\+Costed()}) и специального здания с учетом его типа (\doxylink{classlab__testing3_1_1_building_a9e77389e22e578fc058874b421b20d00}{Special\+Building.\+Costed()}, \doxylink{classlab__testing3_1_1_special_building_a451278fc1980e1eeda00741afae7e2c2}{Special\+Building.\+Get\+Type\+Building()}).
+
+\begin{DoxyReturn}{Возвращает}
+Суммарная стоимость всех зданий корпорации.
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{См. также}
+\doxylink{classlab__testing3_1_1_building_a9e77389e22e578fc058874b421b20d00}{Building.\+Costed()}, \doxylink{classlab__testing3_1_1_building_a9e77389e22e578fc058874b421b20d00}{Special\+Building.\+Costed()}, \doxylink{classlab__testing3_1_1_special_building_a451278fc1980e1eeda00741afae7e2c2}{Special\+Building.\+Get\+Type\+Building()} 
+\end{DoxySeeAlso}
+
+
+\label{doc-variable-members}
+\Hypertarget{classlab__testing3_1_1_combo_ent_doc-variable-members}
+\doxysubsection{Поля}
+\Hypertarget{classlab__testing3_1_1_combo_ent_ac0b276430081dedd5610ce2658c66e68}\index{lab\_testing3.ComboEnt@{lab\_testing3.ComboEnt}!b1@{b1}}
+\index{b1@{b1}!lab\_testing3.ComboEnt@{lab\_testing3.ComboEnt}}
+\doxysubsubsection{\texorpdfstring{b1}{b1}}
+{\footnotesize\ttfamily \label{classlab__testing3_1_1_combo_ent_ac0b276430081dedd5610ce2658c66e68} 
+\doxymbox{\hyperlink{classlab__testing3_1_1_building}{Building}} lab\+\_\+testing3.\+Combo\+Ent.\+b1\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+обычное здание корпорации 
+
+\Hypertarget{classlab__testing3_1_1_combo_ent_a57ac92648e45b86d9444fc4f3f3b0be4}\index{lab\_testing3.ComboEnt@{lab\_testing3.ComboEnt}!b2@{b2}}
+\index{b2@{b2}!lab\_testing3.ComboEnt@{lab\_testing3.ComboEnt}}
+\doxysubsubsection{\texorpdfstring{b2}{b2}}
+{\footnotesize\ttfamily \label{classlab__testing3_1_1_combo_ent_a57ac92648e45b86d9444fc4f3f3b0be4} 
+\doxymbox{\hyperlink{classlab__testing3_1_1_special_building}{Special\+Building}} lab\+\_\+testing3.\+Combo\+Ent.\+b2\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Специальное здание корпорации 
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+lab\+\_\+testing3/\+\doxymbox{\hyperlink{_ent_8cs}{Ent.\+cs}}\end{DoxyCompactItemize}
